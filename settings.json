@@ -1,0 +1,36 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "deno.enablePaths": [
+    "supabase/functions"
+  ],
+  "deno.lint": true,
+  "deno.unstable": [
+    "bare-node-builtins",
+    "byonm",
+    "sloppy-imports",
+    "unsafe-proto",
+    "webgpu",
+    "broadcast-channel",
+    "worker-options",
+    "cron",
+    "kv",
+    "ffi",
+    "fs",
+    "http",
+    "net"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#113f77",
+    "activityBar.background": "#113f77",
+    "editorGroup.border": "#113f77",
+    "panel.border": "#113f77",
+    "sash.hoverBorder": "#113f77",
+    "sideBar.border": "#113f77",
+    "tab.activeBorder": "#113f77",
+    "titleBar.activeBackground": "#113f77",
+    "titleBar.border": "#113f77",
+    "titleBar.inactiveBackground": "#113f7799"
+  }
+}
